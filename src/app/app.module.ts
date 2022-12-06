@@ -7,6 +7,7 @@ import { AddCourseComponent } from './add-course/add-course.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { ViewCourseComponent } from './view-course/view-course.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 let myRoutes:Routes = [
   {
@@ -22,7 +23,8 @@ let myRoutes:Routes = [
   declarations: [
     AppComponent,
     AddCourseComponent,
-    ViewCourseComponent
+    ViewCourseComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
